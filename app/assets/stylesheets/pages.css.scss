@@ -1,0 +1,123 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+/** BASIC */
+
+body {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #004784
+}
+
+html, body {
+	height: 100%;
+}
+
+html>body #wrapper {
+	height: auto;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background: #273840 url(images/homepage01.jpg) repeat-x left top;
+	font-size: 11px;
+	text-align: justify;
+	color: #273840;
+}
+
+/** WRAPPER */
+
+#wrapper {
+	width: 718px;
+	margin: auto;
+	padding: 30px;
+	background-color: #FFFFFF;
+}
+
+/** HEADER */
+
+#header {
+	padding: 15px;
+}
+
+#header img{
+	height: 100px;
+}
+
+#header h1 {
+	margin: 0px;
+	padding: 0px;
+	font-size: 30px;
+}
+
+#header h2 {
+	margin: 0px;
+	padding: 0px;
+	font-size: 12px;
+}
+#header h3 {
+	margin: 0px;
+	padding: 0px;
+	font-size: 11px;
+}
+
+#header table {
+	width: 100%;
+}
+
+/** MAIN-MENU */
+
+#navigationbar {
+	padding: 5px;
+	background: #4F7383;
+	text-transform: uppercase;
+}
+
+#navigationbar ul {
+	margin: 3px;
+	padding: 5px;
+	background: transparent url(images/homepage02.gif) no-repeat left top;
+	list-style: none;
+}
+
+#navigationbar li {
+	padding: 3px;
+	display: inline;
+	text-decoration: none;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+#navigationbar a {
+	background: transparent url(images/homepage03.gif) no-repeat left center;
+}
+
+/** FOOTER */
+#footer {
+	clear: both;
+	padding: 5px;
+}
+
+#footer ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	text-align: center;
+}
+
+#footer li {
+	padding: 0px 15px;
+	display: inline;
+}
+
+
+/** HR */
+.hr1 {
+	clear: both;
+	margin-top: 10px 0px 10px 0px;
+	border: 1px dotted #608B9F;
+}
+
+.hr1 hr {
+	display: none;
+}

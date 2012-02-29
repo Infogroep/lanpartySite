@@ -1,0 +1,198 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+/** BASIC */
+
+a:link {
+	color: #004784
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+dl dt {
+	margin-top: 1em;
+}
+
+h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+h2.bigger {
+	font-size: 18px;
+	text-transform: uppercase;
+}
+
+h3 {
+	margin: 0px;
+	padding: 0px;
+	font-size: 11px;
+
+}
+
+p, ol, ul {
+	margin-top: 0px;
+}
+
+.withbullets {
+	margin-left: 15px;
+	list-style-type: square;
+}
+.img1 {
+	float: left;
+	margin: 4px 15px 0px 0px;
+	border: 2px solid #608B9F;
+}
+
+
+
+html>body #wrapper {
+	height: auto;
+}
+
+/** CONTENT */
+
+.error {
+	border: 1px solid #608B9F;
+	padding: 15px;
+}
+
+.error-bad {
+	border: 1px solid #608B9F;
+	padding: 15px;
+	color: #cc0000;
+	font-weight: bold;
+}
+
+.attention {
+    color: #cc0000;
+    font-weight: bold;   
+}
+
+#content {
+	margin: 0 0 0 10px;
+	font-size: 12px;
+}
+
+#left {
+	float: left;
+	width: 518px;
+}
+
+#right {
+	float: left;
+	width: 170px;
+	margin: 0px 0px 0px 20px;
+}
+
+.faq ul {
+    list-style-type: disc;
+}
+
+.faq dt {
+    font-weight: bold;
+}
+        
+
+/* messages */
+
+.msgText {
+	width: 470px;
+	margin: 0 0 0 10px;
+	border: 1px solid #608B9F;
+	padding: 15px;
+}
+
+.msgTitle {
+	margin: 0 0 0 10px;
+	width: 470px;
+	border: 1px solid #608b9f;
+	padding: 2px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+
+/** FOOTER */
+#footer a {
+	padding: 0px 10px;
+}
+
+#footer p {
+	text-align: center;
+	font-size: 9px;
+}
+
+/** RIGHT COLUMN */
+
+#right h2 {
+	font-size: 11px;
+	background: #273840;
+	color: #fff;
+	margin: 0 0 10px 0;
+	padding: 3px 3px 3px 6px;
+}
+
+.rightcontent {
+	margin: 0 0 10px 10px;
+	text-align: left;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+li {
+	margin: 0;
+	padding: 0;
+}
+
+table.bTable {
+	border: 1px solid #273840;
+	width: 100%;
+}
+
+.button {
+	border: 1px solid #273840;
+	background-color: #4f7383;
+	padding: 3px;
+}
+.button:hover {
+	border: 4px solid #4f7383;
+	background-color: #90ACBB;
+	padding: 0px;
+}
+.button:active {
+	border: 1px solid #273840;
+	background-color: 255 255 0;
+	padding: 3px;
+}
+.wikiAdmin {
+   border: 1px solid red;
+   padding-left: 15px;
+   padding-top:5px;
+   padding-bottom:5px;
+}
+
+.wikiText {
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+
+.editWiki {
+   border: 1px solid #608B9F;
+   padding-left:15px;
+   padding-top:5px;
+   padding-bottom:5px;
+}
+
