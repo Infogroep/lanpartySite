@@ -92,6 +92,24 @@ body {
 	background: transparent url(images/homepage03.gif) no-repeat left center;
 }
 
+/** LEFT **/
+#left {
+	float: left;
+	display: inline-block;
+}
+
+
+/** CONTENT **/
+#content{
+	height: 100%;
+	overflow: hidden;
+}
+/** RIGHT **/
+#right {
+	display: inline-block;
+	float: right;
+}
+
 /** FOOTER */
 #footer {
 	clear: both;

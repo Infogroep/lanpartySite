@@ -11,9 +11,11 @@
 			<%= render 'layouts/header' %>
 			<%= render 'layouts/navigation' %>
 			<div id="content">
-				<%= yield %>
+				<div id="left">
+					<%= yield %>
+				</div>
+				<%= render 'layouts/right' %>
 			</div>
-			<%= render 'layouts/right' %>
 			<%= render 'layouts/footer' %>
 		</div>
 	</body>
